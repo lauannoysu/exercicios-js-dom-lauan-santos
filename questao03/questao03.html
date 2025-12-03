@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="questao03.js"></script>
+    <form id="form-cadastro">
+
+    <label for="nome">Nome completo:</label><br>
+    <input type="text" id="nome"><br><br>
+
+    <label for="dataNasc">Data de nascimento:</label><br>
+    <input type="date" id="dataNasc"><br><br>
+
+    <label for="rua">Rua:</label><br>
+    <input type="text" id="rua"><br><br>
+
+    <label for="numero">Número:</label><br>
+    <input type="number" id="numero"><br><br>
+
+    <label for="cidade">Cidade:</label><br>
+    <input type="text" id="cidade"><br><br>
+
+    <label for="uf">Estado (UF):</label><br>
+    <input type="text" id="uf" maxlength="2"><br><br>
+
+    <button type="button" id="cadastrar" onclick="cadastrarUsuario()">Cadastrar</button>
+</form>
+
+<p id="resultado"></p>
+</body>
+</html>
